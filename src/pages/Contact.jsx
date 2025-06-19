@@ -13,6 +13,7 @@ const Contact = () => {
       {like ? "like👍": "liked❤️"}
 
      </button>
+     
      <div>
       <button onClick={()=> setdark(!dark)} className={`${dark ? "bg-black text-white" : "bg-white"} rounded-sm p-3 w-100 mt-10`}
       >

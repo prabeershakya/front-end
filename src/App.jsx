@@ -4,7 +4,7 @@ import Homepage from './pages/Homepage'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Hello from './pages/Hello'
-import Naya from './pages/Naya'
+import Register from './pages/Register'
 import NavBar from './pages/components/NavBar'
 
 const App = () => {
@@ -24,8 +24,8 @@ const App = () => {
         <Route path='/hello' 
         element={<Hello />}></Route>
 
-        <Route path='/naya' 
-        element={<Naya />}></Route>
+        <Route path='/Register' 
+        element={<Register />}></Route>
 
       </Routes>
     </Router>
